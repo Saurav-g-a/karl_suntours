@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/sanity-react/node_modules
+/sanity-react/flight/node_modules
 /.pnp
 .pnp.js
 
