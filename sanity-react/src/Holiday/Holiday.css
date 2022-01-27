@@ -1,0 +1,422 @@
+.books {
+  border: 1px solid #ebc817;
+  background: #ebc817;
+  padding: 11px 28px;
+}
+
+.books p {
+  margin: 0;
+}
+
+.Adults {
+  width: 80%;
+}
+
+.arrow {
+  margin: auto;
+}
+.holidays {
+  background-image: url(../backgroundholi.png);
+  background-repeat: no-repeat;
+}
+
+button.image-gallery-thumbnail img {
+  height: 50px !important;
+  width: 100px;
+}
+img.image-gallery-image {
+  object-fit: cover !important;
+  width: 100%;
+}
+
+.Resort.plan {
+  float: right;
+}
+
+.image-gallery-index {
+  bottom: 2px;
+    top: unset;
+    left: 45%;
+    right: unset;
+    background: #ffffffbd;
+    color: black;
+    border-radius: 19px;
+}
+.nav-link {
+  border: none !important;
+}
+a.coll {
+  padding: 13px;
+  font-size: 16px;
+}
+a.coll.collapsed {
+  padding: 13px;
+  color: black;
+  font-size: 16px;
+}
+.tabsss {
+  background: white;
+  padding: 10px 0px;
+}
+.collap  .card{
+  width: 100%;
+}
+.collap  .card p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+i.fa.fa-angle-left {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+button.image-gallery-icon.image-gallery-play-button {
+  display: none;
+}
+
+.tripadvisor h5 {
+  color: #1b3a69;
+}
+
+.holidays div#myTabContent {
+  background: transparent;
+}
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  height: 33px;
+  width: 60px;
+}
+
+.coral {
+    background: white;
+    padding: 12px;
+    color: #1b3a69;
+    margin-bottom: 10px;
+}
+
+.secure {
+  background: white;
+  margin: 18px 0px;
+  text-align: center;
+  position: relative;
+  padding: 7px;
+  color: #1b3a69;
+  border-radius: 23px;
+}
+.secure .flush {
+  left: 59%;
+}
+.tripadvisor {
+  border: 0.5px solid #1b3a69;
+  padding: 13px;
+}
+.secure p {
+  margin: 0px;
+}
+
+.emailme {
+  background: #1b3a69;
+  padding: 15px;
+  color: white;
+}
+
+.confidence h3 {
+  background: #1b3a69;
+  color: white;
+  padding: 18px;
+  font-size: 22px;
+}
+
+.confidence {
+  background: white;
+  border: 0.5px solid #1b3a69;
+  margin: 10px 0px;
+}
+
+.confidence p {
+  color: #1b3a69;
+  margin: 10px 0px;
+}
+
+.secure .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+}
+.secure .nav-link {
+    color: black !important;
+}
+.secure .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border:none;
+    color: black !important;
+}
+.Resort h5 {
+    font-size: 16px;
+}
+
+.Resort p {
+    font-size: 14px;
+}
+.looked {
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 23px;
+    left: 23px;
+    background: white;
+}
+.booked {
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    top: 92px;
+    left: 23px;
+    background: white;
+}
+
+.looked .col-3 {
+    background: #1b3a69;
+    text-align: center;
+    padding: 15px;
+}
+
+.looked .col-9 {
+    padding: 8px 13px;
+}
+
+.looked p {
+    margin: 0;
+}
+
+.booked .col-3 {
+    background: #1b3a69;
+    text-align: center;
+    padding: 15px;
+}
+
+.booked .col-9 {
+    padding: 8px 13px;
+}
+
+.booked p {
+    margin: 0;
+}
+
+.wishlist1 {
+    background: #d5e7f3;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    padding: 10px;
+    color: #1b3a69;
+    top: 20px;
+    border: 2px solid #d5e7f3;
+    border-radius: 39px;
+}
+
+.wishlist1 p {
+    margin: 0px;
+}
+.protected p {
+    font-size: 12px;
+}
+
+.protected .row {
+    background: #e7f5fd;
+    padding: 10px;
+}
+
+.protected img {margin: 15px;}
+
+.saving {
+    background: #00ffff;
+    padding: 14px 40px;
+    color: #1b3a69;
+}
+.card input.form-control {
+  height: auto;
+}
+
+.card h5 {
+  font-size: 16px;
+  color: #1b3a69;
+  margin-top: 11px;
+}
+
+img.img-fluid.sum {
+  margin: 6px;
+  cursor: pointer;
+}
+.card p {
+  font-size: 13px;
+  margin: 0px;
+}
+
+.row.Double.active {
+  background: #e7f6fe;
+}
+
+.row.Double {
+  padding: 9px;
+  border-bottom: 1px solid #b9c3c9;
+}
+
+input.pack {
+  margin-top: 19%;
+}
+
+.card select#inputGroupSelect01 {
+  height: auto;
+}
+
+.included h3 {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+  color: #1b3a69;
+}
+.included {
+  margin: 10px 0px;
+}
+
+.row.Double p {
+  margin: 0;
+}
+
+.row.Double h5 {
+  margin: 0;
+}
+
+.row.Double h2 {
+  margin: 0;
+}
+
+.back button.btn.btn-warning {
+  border-radius: 35px;
+}
+.d-flex img {
+  margin-top: 21px;
+  margin-right: 7px;
+}
+.card .col-md-3.text-center p {
+  padding-top: 13px;
+}
+
+.mbsc-popup-body.mbsc-popup-body-anchored.mbsc-windows.mbsc-popup-body-round {
+  width: 600px;
+}
+
+.mbsc-datepicker-inline {
+  height:439px !important;
+}
+.mbsc-windows.mbsc-calendar-label-inner {
+  text-align: right;
+}
+.mbsc-calendar-cell-inner.mbsc-calendar-day-inner.mbsc-windows{
+  text-align: left;
+}
+.mbsc-calendar-label-text.mbsc-windows {
+  font-size: 13px;
+}
+
+.mbsc-windows.mbsc-calendar-cell:hover .mbsc-calendar-label-text.mbsc-windows{
+  color: white !important;
+}
+.mbsc-calendar-cell.mbsc-disabled {
+  background: #f3f3f3;
+  color: #1b3a69 !important;
+}
+.mbsc-windows.mbsc-calendar-cell:hover {
+  background: #1b3a69;
+  color: white !important;
+  border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.mbsc-windows.mbsc-calendar-cell {
+  border-color: #e3dcdc;
+  border-width: 1px;
+}
+
+.card .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 81%;
+}
+.mbsc-calendar-cell.mbsc-calendar-day.mbsc-windows.mbsc-ltr.mbsc-calendar-day-labels.mbsc-selected{
+  background: #1b3a69;
+  color: white !important;
+  border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.mbsc-selected .mbsc-calendar-label-text.mbsc-windows {
+  font-size: 13px;
+  color: white !important;
+}
+
+.mbsc-selected .mbsc-windows.mbsc-calendar-today, .mbsc-windows.mbsc-calendar-week-nr {
+  color: #ffffff;
+}
+.mbsc-windows.mbsc-calendar-today, .mbsc-windows.mbsc-calendar-week-nr {
+  color: #1b3a69;
+}
+.mbsc-windows.mbsc-range-day .mbsc-calendar-cell-inner, .mbsc-windows.mbsc-selected .mbsc-calendar-cell-inner {
+  text-align: left;
+}
+.mbsc-windows.mbsc-calendar-cell {
+  border-color: #e3dcdc;
+}
+
+.mbsc-calendar-label-text.mbsc-windows {
+    font-size: 13px;
+}
+.mbsc-calendar-cell-text.mbsc-calendar-day-text.mbsc-windows {
+  color: #1d3963 !important;
+  font-weight: 700;
+}
+.mbsc-selected .mbsc-calendar-cell-text.mbsc-calendar-day-text.mbsc-windows {
+  color: #fff !important;
+  font-weight: 700;
+}
+.mbsc-hover .mbsc-calendar-cell-text.mbsc-calendar-day-text.mbsc-windows {
+  color: #fff !important;
+  font-weight: 700;
+}
+button.btn.btn-success.btn-sm.mx-1 {
+    background: #eb008b;
+    border-color: #eb008b;
+}
+
+button.btn.btn-warning.btn-sm.mx-1 {
+    background: #00adef;
+    border-color: #00adef;
+    color: white;
+}
+.bars a {
+  text-decoration: underline;
+}
+
+button.btn.btn-secondary.btn-sm.mx-1 {
+    padding: 4px 10px;
+    background: #f3f3f3;
+    color: black;
+    border-color: #f3f3f3;
+}
+.mbsc-calendar-label-text.mbsc-windows {
+  color: #1d3963 !important;
+  font-weight: 700;
+}
+.holidays .card {
+  box-shadow: -1px 1px 19px 0px #01af871f;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+nav.navbar.navbar-expand-lg.navbar-light {
+  position: unset;
+}
+div#bars .col-md-2 {
+  padding: 10px 0px;
+}
+}

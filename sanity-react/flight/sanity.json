@@ -1,10 +1,14 @@
 {
   "root": true,
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
   "project": {
-    "name": "karl"
+    "name": "flight"
   },
   "api": {
-    "projectId": "nunmunkv",
+    "projectId": "p9j3rws8",
     "dataset": "production"
   },
   "plugins": [
@@ -25,6 +29,15 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/base/components/unicorn-slider",
+      "description": "React component which provides a slider input"
+    },
+    {
+      "implements": "part:@sanity/base/components/unicorn-slider",
+      "path": "components/Slider.js"
     }
   ]
+  
 }

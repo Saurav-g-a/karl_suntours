@@ -1,0 +1,8 @@
+.smalltext p {
+    font-size: 12px;
+}
+
+.row.last-section a {
+    font-size: 24px;
+    text-decoration: revert;
+}
