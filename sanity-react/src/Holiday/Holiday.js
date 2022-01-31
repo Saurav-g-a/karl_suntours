@@ -299,6 +299,14 @@ function Holiday() {
             y.style.display = "block";
         }
     }
+    const [count, setCount] = useState(0);
+    const [todos, setTodos] = useState(["todo 1", "todo 2"]);
+    const increment = () => {
+        setCount((c) => c + 1);
+      };
+      const decrement = () => {
+        setCount((c) => c - 1);
+      };
     return (
         <section>
             <div className="tabs" id="tabs" style={{ display: 'none', marginTop: '8%' }}>
@@ -1247,9 +1255,9 @@ function Holiday() {
                                             </div>
                                             <div className='col-md-3'>
                                                 <div className='d-flex mt-4'>
-                                                    <img src="sum.png" className='img-fluid sum' alt="..."/>
-                                                    <input type='number' className="form-control" />
-                                                    <img src="add.png" className='img-fluid sum' alt="..."/>
+                                                   <button className="btn" onClick={decrement}> <img src="sum.png" className='img-fluid sum' alt="..."/></button>
+                                                    <input type='number' value={count} className="form-control w-50" />
+                                                    <button className="btn" onClick={increment}> <img src="add.png" className='img-fluid sum' alt="..."/></button>
                                                 </div>
                                             </div>
                                         </div>
